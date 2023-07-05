@@ -1,0 +1,158 @@
+<div class="card mt-4">
+
+    <div class="row p-3">
+
+        <div class="col-lg-7">
+
+            <img id="myImg" src="./images/pin/{{img}}" class="img-fluid w-100">
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close"><i class="bi bi-x-lg"></i></span>
+                <img class="modal-content" id="img01">
+            </div>
+
+        </div>
+
+        <div class="col-lg-5">
+
+            <h4 class="fw-bold">{{name}}</h4>
+
+            <div class="cmt text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+
+            <br>
+
+            <div class="chitiet">
+
+                <h5 class="fw-bold">Thông tin chi tiết:</h5>
+
+                <div class="des text-secondary">
+                    {{des}}
+                </div>
+
+                <br>
+
+                <ul class="list-group list-group-flush" style="list-style: none;">
+                    <li>
+                        <i class="bi bi-check-circle-fill text-danger fs-5"></i>
+                        <Strong class="fw-bold">Công xuất:</Strong> {{congsuat}}
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle-fill text-danger fs-5"></i>
+                        <Strong class="fw-bold">Hãng:</Strong> {{hang}}
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle-fill text-danger fs-5"></i>
+                        <Strong class="fw-bold">Chất lượng:</Strong> Mới 100%
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle-fill text-danger fs-5"></i>
+                        <Strong class="fw-bold">Công suất:</Strong> {{congsuat}}
+                    </li>
+                </ul>
+
+                <div class="button pt-5">
+
+                    <a class="btn btn-outline-danger fw-bold rounded-5 p-2 ps-3 px-3" href="" role="button">
+                        Liên hệ báo giá ngay
+                        <i class="bi bi-cart4"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="des-info mt-5">
+
+    <h5 class="color-product fw-bold">Thông số kỹ thuật của {{name}}:
+    </h5>
+
+    <div class="card mt-4 mb-4">
+
+        <div class="card-header bg-white color-product fw-bold text-center fs-6">
+
+            Thông số kỹ thuật cơ khí
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table">
+
+                    <tbody>
+                        <tr>
+                            <td>Loại tế bào quang điện</td>
+                            <td scope="row">{{tebaoquandien}}</td>
+                        </tr>
+                        <tr>
+                            <td>Hãng</td>
+                            <td>{{hang}}</td>
+                        </tr>
+                        <tr>
+                            <td>Công suất</td>
+                            <td>{{congsuat}}</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng Cell</td>
+                            <td>{{cellpin}}</td>
+                        </tr>
+                        <tr>
+                            <td>Kích thước</td>
+                            <td>{{kichthuoc}}</td>
+                        </tr>
+                        <tr>
+                            <td>Cân nặng</td>
+                            <td>{{cannang}}</td>
+                        </tr>
+                        <tr>
+                            <td>Kính mặt trước</td>
+                            <td>{{kinh}}</td>
+                        </tr>
+                        <tr>
+                            <td>Chất liệu khung</td>
+                            <td>{{khung}}</td>
+                        </tr>
+                        <tr>
+                            <td>Hộp đấu dây</td>
+                            <td>{{hopdauday}}</td>
+                        </tr>
+                        <tr>
+                            <td>Cáp điện</td>
+                            <td>{{capdien}}</td>
+                        </tr>
+                        <tr>
+                            <td>Jack kết nối</td>
+                            <td>{{jack}}</td>
+                        </tr>
+                        <tr>
+                            <td>Quy cách đóng gói</td>
+                            <td>{{quycachdonggoi}}</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <h5 class="text-secondary text-center fw-bold mb-3">Liên hệ với chúng tôi: <Strong
+            class="text-danger fw-bold">0918.619.651 - 0969.209.620</Strong></h5>
+
+</div>

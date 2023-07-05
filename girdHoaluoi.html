@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="solar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Bách Thịnh - Trang chủ</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-xm navbar-expand-lg navbar-white bg-light fixed-top">
+
+            <div class="container">
+
+                <img src="./images/logo.png" class="img-fluid rounded-top" width="23%">
+
+                <button class="navbar-toggler d-lg-none border border-light" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" style="width: 70%;" id="offcanvasWithBackdrop"
+                    aria-labelledby="offcanvasWithBackdropLabel">
+
+                    <ul class="navbar-nav justify-content-end">
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="index.html" aria-current="page">
+                                <i class="bi bi-house-door-fill"></i>
+                                Trang Chủ
+                            </a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="info.html">
+                                <i class="bi bi-info-square-fill"></i>
+                                Giới thiệu</a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="ivt-tong.html">
+                                <i class="bi bi-kanban"></i>
+                                Sản phẩm
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-window-plus"></i>
+                                Giải pháp và ứng dụng
+                            </a>
+                            <div class="dropdown-menu border-0 p-1" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="girdHoaluoi.html">Ứng dụng điện mặt trời <br> hoà
+                                    lưới</a>
+                                <a class="dropdown-item" href="girdDoclap.html">Ứng dụng điện mặt trời <br> độc lập</a>
+                                <a class="dropdown-item" href="hybrid.html">Ứng dụng điện mặt trời <br> Hybrid</a>
+                                <a class="dropdown-item" href="girdFamily.html">Ứng dụng điện mặt trời <br> cho nông
+                                    nghiệp</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="priceHybrid.html">
+                                <i class="bi bi-newspaper"></i>
+                                Dịch vụ
+                                <col>
+                            </a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="lienhe.html">
+                                <i class="bi bi-person-lines-fill"></i>
+                                Liên hệ
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <main>
+
+            <div class="row g-1">
+
+                <div class="col-lg-9">
+
+                    <div class="mt-5 pt-5" style="font-family: Arial;">
+
+                        <div class="about-heading">
+
+                            <h3 class="fw-bold" style="color: #4075a3;">ỨNG DỤNG ĐIỆN MẶT TRỜI HOÀ LƯỚI</h3>
+                            <h6 class="fw-bold mb-3 text-success">1. Hệ thống hòa lưới vận hành ra sao?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Ứng dụng điện mặt trời hòa lưới
+
+                                Hệ thống hòa lưới vận hành ra sao?
+                                Các tấm pin NLMT được gắn trên phần mái của tòa nhà (xưởng, khách sạn, ..) sẽ nhận ánh
+                                sáng trực
+                                tiếp từ mặt trời chiếu vào vàchuyển hóa thành dòng điện. Dòng điện này đi đến Bộ Hòa
+                                Lưới và
+                                được chỉnh lưu thành điện AC chuẩn với lưới điện (220V – 1 pha hoặc 380V‐3pha). Điện đầu
+                                ra từ
+                                hệ thống NLMT sẽ được hòa trực tiếp vào hệ thống điện lưới và hoạt động đồng bộ với điện
+                                lưới để
+                                cung cấp toàn tải trong tòa nhà.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-1.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">2. Hệ thống có cần trữ ắc quy, có thể sử
+                                dụng vào buổi tối?</h6>
+
+                            <p class="text-secondary">
+                                Hệ thống không cần lưu trữ ắc quy, toàn bộ sản lượng điện sinh ra từ hệ thống sẽ được
+                                hòa lưới và tiêu thụ tức thời. Trong trường hợp tải tiêu thụ không hết, lượng điện dư sẽ
+                                trả ngược lên lưới điện và truyền tải đến nơi khác. Do đó, việc sinh hoạt (hoặc sản
+                                xuất, kinh doanh) sẽ được sử dụng điện từ nguồn NLMT (bù trừ với điện lưới) vào ban ngày
+                                và sử dụng 100% điện lưới vào ban đêm.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-2.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">3. Trong những ngày mây mù, mưa, liệu có đủ
+                                điện để sử dụng sinh hoạt?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Việc sinh hoạt, sản xuất hoạt toàn không bị ảnh hưởng, gián đoạn trong mọi điều kiện
+                                thời tiết. Trong những ngày mây mưa, lượng điện mặt trời sẽ giảm theo cường độ ánh sáng,
+                                lúc này điện lưới sẽ tự động hòa vào để bổ sung lượng điện năng còn thiếu, đảm bảo việc
+                                cung cấp tải ổn định và liên tục.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-3.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">4. Làm sao chúng tôi biết đã tiết kiệm được
+                                bao nhiêu điện khi sử dụng hệ thống NLMT ?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Theo các thông kê, cứ mỗi kW lắp đặt sẽ cho ra trung bình khoảng 4 – 4,5kWh/ngày (trong
+                                miền nam) hoặc từ 3,5 – 4 kWh/ngày (trong khu vực miền Bắc). Ví dụ, cùng là 20kW điện
+                                mặt trời lắp đặt sẽ tạo ra khoảng 80‐ 90kWh/ngày trong miền nam và khoảng 70‐80kWh/ngày
+                                ở miền Bắc.
+                                <br> <br>
+                                Có 2 cách để giám sát. Thứ nhất, chúng tôi có thể gắn 1 công tơ điện tại đầu ra của
+                                inverter, công tơ này sẽ đo đếm toàn bộ lượng điện cộng dồn mà hệ thống NLMT đã sản sinh
+                                ra. Từ đó chủ hộ gia đình (xưởng, doanh nghiệp) sẽ biết mình đã tiết kiệm được bao
+                                nhiêu. Cách thứ 2, chúng tôi gắn một thiết bị giám sát bằng WIFI, thiết bị này sẽ thu
+                                thập toàn bộ dữ liệu vận hành của hệ thống và up lên website, chủ sở hữu sẽ có một tài
+                                khoản miễn phí trên website có thể giám sát các thông số vận hành (sản lượng trong ngày,
+                                tháng, năm, công suất đỉnh, …) tại bất kỳ nơi đâu thông qua internet.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-4.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">5. Khi điện lưới cúp, hệ thống có hoạt động
+                                được không ? Hệ thống có hoạt động với máy phát điện diesel được không?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Về mặt kỹ thuật, khi lưới điện cúp, hệ thống sẽ không thể đo các thông số từ điện lưới
+                                nên từ đó cũng không thể sản sinh ra điện tích hợp, vì vậy hệ thống sẽ tự động dừng
+                                (ngay cả khi đang có nắng tốt). Trong thời gian này, nếu máy phát điện diesel hoạt động,
+                                hệ thống NLMT sẽ tái khởi động và hoạt động tích hợp với máy nổ như với điện lưới. Tuy
+                                nhiên, đối với các máy nổ công suất nhỏ, cần lắp đặt một thiết bị chuyên dụng để ngăn
+                                dòng trả ngược lại máy phát điện, gây cháy nổ hoặc hư hỏng hệ thống.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-5.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">6. Làm sao chúng tôi biết đã tiết kiệm được
+                                bao nhiêu điện khi sử dụng hệ thống NLMT ?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Hệ thống hoạt động hoàn toàn tự động, người sử dụng có thể lắp đặt một lần rồi quên. Tuy
+                                nhiên, người sử dụng cần thường xuyên vệ sinh bề mặt các tấm pin NLMT để tẩy sạch các
+                                bụi bẩn trên bề mặt, vệ sinh quạt tản nhiệt trong inverter giúp nâng cao khả năng hấp
+                                thụ ánh sáng nhằm tối ưu hiệu quả làm việc của hệ thống.
+                            </p>
+
+                            <div class="img-info-solar">
+                                <img src="./images/solution/hoaluoi/hoaluoi-6.jpg" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="about-heading mt-5">
+
+                            <h6 class="fw-bold mb-3 text-success">7. Hệ thống điện NLMT hòa lưới so với hệ
+                                thống điện NLMT trữ ắc quy có gì ưu việt hơn ?
+                            </h6>
+
+                            <p class="text-secondary">
+                                Do hệ thống họạt động bù trừ với điện lưới nên không phụ thuộc vào công suất tải, người
+                                sử dụng có thể thoải mái sinh hoạt mà không cần quan tâm việc bị giới hạn tải như khi sử
+                                dụng hệ thống NLMT trữ ắc quy. Đồng thời, hệ thống không sử dụng ắc quy nên không cần
+                                bảo trì hay thay thế ắc quy theo định kỳ.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 mt-5 pt-5 mb-5">
+
+                    <div class="card rounded-0">
+
+                        <form class="d-flex my-2 my-lg-0 p-3">
+                            <input class="form-control me-sm-2" type="text" placeholder="Tìm kiếm bài đăng">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </form>
+
+                    </div>
+
+                    <div class="card rounded-0 mt-4">
+
+                        <div class="card-header">
+
+                            <h5>BẢNG TIN MỚI NHẤT</h5>
+
+                        </div>
+
+                        <!-- Hover added -->
+                        <div class="list-group rounded-0">
+
+                            <a href="#" class="list-group-item list-group-item-action text-primary">
+                                Bảng Giá Lắp Đặt Trọn Gói Điện
+                                Mặt Trời Hybrid – Hòa Lưới Có Lưu Trữ Mới Nhất
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action text-primary">
+                                Hướng Dẫn Kết Nối Wifi Luxpower Trên Điện Thoại Mới Nhất
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action text-primary">
+                                Tại sao nên lựa chọn Pin Lithium Gigabox SNA 51.2V 100Ah cho gia đình bạn
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action text-primary">
+                                Pin Lithium UFO 48V 100Ah Bảo Hành 5 Năm Mới Nhất Hiện Nay
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action text-primary">
+                                Hướng Dẫn Cài Đặt Wifi Inverter Hybrid Deye Qua App DEYE CLOUD Mới Nhất
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="card rounded-0 mt-4">
+
+                        <div class="card-header">
+
+                            <h5>NĂNG LƯỢNG MẶT TRỜI - NĂNG LƯỢNG SẠCH</h5>
+
+                        </div>
+
+                        <div class="list-group">
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="card-body">
+
+                                    <iframe class="ratio ratio-16x9" src="https://www.youtube.com/embed/xej9P42gOOg"
+                                        allowfullscreen>
+                                    </iframe>
+
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card rounded-0 mt-4">
+
+                        <div class="card-header">
+
+                            <h5>ỨNG DỤNG NĂNG LƯỢNG MẶT TRỜI CHO NÔNG NGHIỆP</h5>
+
+                        </div>
+
+                        <div class="list-group">
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="card-body">
+
+                                    <iframe class="ratio ratio-16x9" src="https://www.youtube.com/embed/N2V_Pd0wgc4"
+                                        allowfullscreen>
+                                    </iframe>
+
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- panel cam kết -->
+        <div class="container">
+
+            <div class="layout">
+
+                <p class="text-dark fs-6">
+                    <br>
+                    Quý khách hàng quan tâm tới thiết bị điện năng lượng mặt trời xin vui lòng liên hệ: <br>
+                    CÔNG TY TNHH <Strong style="color: #0a59a0;">SOLAR BÁCH THỊNH</Strong> <br>
+                    Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập Huyện Thoại Sơn, Tỉnh An Giang<br>
+                    <Strong style="color: #0a59a0;">TEL: 0918.619.651 - 0969.209.620</Strong> <br>
+                    <Strong class="text-danger">Xin chân thành cảm ơn quý khách đã đến với Solar Bách Thịnh !</Strong>
+                </p>
+
+                <div class="img-info-solar mb-5">
+
+                    <img src="./images/if-img/ifo-slbt.png" class="img-fluid w-100">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-currency-dollar"></i>
+                            Cam Kết Chính Hãng
+                        </h3>
+
+                        <p class="text-dark fs-6">Đảm bảo chất lượng 100% hàng nhập khẩu chính hãng.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-people-fill"></i>
+                            Kinh Nghiệm
+                        </h3>
+
+                        <p class="text-dark fs-6">Đội ngũ có kinh nghiệm nhiều năm trong nghành lắp đặt thiết bị.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-star-fill"></i>
+                            Uy Tín
+                        </h3>
+
+                        <p class="text-dark fs-6">Luôn được quý khách hàng tin tưởng, yêu mến và ủng hộ.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="doi-tac-solar mb-5 ">
+
+                    <div class="img-logo">
+                        <img src="images/doitac/canadian-solar.jpg" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/Goodwe_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/invt-solar.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/Ja_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/longi-logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/sma-solar.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/solis_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+
+        <div class="container" id="contact">
+
+            <div class="row g-0">
+
+                <div class="col-12 col-md-4 col-lg-4 pt-3">
+                    <div class="item">
+                        <ul style="padding-left: 0rem;">
+                            <li>
+                                <a class="text-white fw-bold fs-6">THÔNG TIN LIÊN HỆ</a>
+                                <a class="text-white">
+                                    <i class="bi bi-houses"></i>
+                                    &nbsp;Công ty TNHH &nbsp; <Strong class="text-success">Solar Bách Thịnh</Strong>
+                                </a>
+                                <a class="text-white">
+                                    <i class="bi bi-telephone"></i>
+                                    &nbsp;0918.619.651 - 0969.209.620
+                                </a>
+                                <a class="text-white">
+                                    <i class="bi bi-clock"></i>
+                                    &nbsp;Thời gian làm việc: 7:00 - 17:00 <br> Thứ 2 - Chủ nhật
+                                </a>
+                                <a class="text-white">
+                                    <i class="bi bi-geo-alt"></i>
+                                    &nbsp;Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập <br>
+                                    &nbsp;Huyện Thoại Sơn, Tỉnh An Giang
+                                </a>
+                                <a class="text-white">
+                                    <i class="bi bi-envelope-at"></i>
+                                    &nbsp;Email: lethanhkietdl@gmail.com
+                                </a>
+                                <a class="text-white">
+                                    <i class="bi bi-card-checklist"></i>
+                                    &nbsp;Mã số thuế: 1602124773 cấp ngày: 04/06/2020 tại An Giang
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 pt-3">
+                    <div class="item">
+                        <ul style="padding-left: 0rem;">
+                            <li>
+                                <a class="text-white fw-bold fs-6">GIẤY PHÉP ĐKKD</a>
+                                <a class="text-white">Công ty TNHH MTV &nbsp; <Strong class="text-success"> Solar
+                                        Bách Thịnh</Strong>
+                                </a>
+                                <a class=" text-white">
+                                    Giấy phép đăng kí Kinh doanh số: 1602124773 do <br>
+                                    Sở KHĐT Tỉnh An Giang cấp ngày:
+                                    04/06/2020.
+                                </a>
+                                <a class="text-white">
+                                    Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập <br>
+                                    Huyện Thoại Sơn, Tỉnh An Giang, Việt Nam
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 pt-3">
+
+                    <div class="item">
+
+                        <ul style="padding-left: 0rem;">
+
+                            <li>
+
+                                <a class="text-white fw-bold fs-5">LIÊN HỆ TƯ VẤN LẮP ĐẶT</a>
+
+                                <form class="mb-5" name="formChk">
+
+                                    <label class="text-white mb-3">Xin vui lòng để lại email để <Strong
+                                            class="text-success">Solar Bách Thịnh</Strong>
+                                        cập nhật tin tức mới
+                                        nhất đến quý khách
+                                    </label>
+
+                                    <div class="row g-2">
+
+                                        <div class="col-lg-12">
+                                            <div class="mb-2">
+                                                <input type="text" class="form-control" name="name"
+                                                    ng-model="fullname" placeholder="Họ và tên"
+                                                    pattern="^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$"
+                                                    required>
+                                                <small class="text-danger"
+                                                    ng-show="formChk.name.$touched && formChk.name.$invalid">
+                                                    Vui lòng nhập đúng định dạng họ tên !
+                                                </small>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="mb-2">
+                                                <input type="text" class="form-control" name="phone"
+                                                    ng-model="phone" placeholder="Số điện thoại"
+                                                    pattern="(84|0[3|5|7|8|9])+([0-9]{8})\b" required>
+                                                <small class="text-danger"
+                                                    ng-show="formChk.phone.$touched && formChk.phone.$invalid">
+                                                    Vui lòng nhập đúng định dạng số điện thoại !
+                                                </small>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <textarea class="form-control" name="content" placeholder="Nội dung"
+                                                rows="5"></textarea>
+                                        </div>
+
+                                    </div>
+
+                                    <button type="submit" id="submit" name="submit"
+                                        class="btn btn-success fw-bold px-3 ps-3 pt-2 pb-2">
+                                        Đăng ký
+                                    </button>
+
+                                    <span class="fs-6" id="success"></span>
+
+                                </form>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="design pt-2">
+
+            <p class="fw-bold"> Copyright © 2023 Công Ty TNHH
+                <Strong class="fw-bold text-success">
+                    Solar Bách Thịnh
+                </Strong>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- nút bấm BACKTOP -->
+    <div id="backtop">
+        <i class="fa fa-chevron-up" id="icon"></i>
+    </div>
+
+    <!-- call -->
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+                <a href="tel:0918619651" class="pps-btn-img">
+                    <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại"
+                        width="50">
+                </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0918619651">
+                <span class="text-hotline">0918.619.651</span>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/send-infoKH.js"></script>
+    <script src="js/slick.js"></script>
+
+</body>
+
+</html>

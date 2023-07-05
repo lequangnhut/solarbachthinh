@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="solar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Bách Thịnh - Trang chủ</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-xm navbar-expand-lg navbar-white bg-light fixed-top">
+
+            <div class="container">
+
+                <img src="./images/logo.png" class="img-fluid rounded-top" width="23%">
+
+                <button class="navbar-toggler d-lg-none border border-light" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" style="width: 70%;" id="offcanvasWithBackdrop"
+                    aria-labelledby="offcanvasWithBackdropLabel">
+
+                    <ul class="navbar-nav justify-content-end">
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="index.html" aria-current="page">
+                                <i class="bi bi-house-door-fill"></i>
+                                Trang Chủ
+                            </a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="info.html">
+                                <i class="bi bi-info-square-fill"></i>
+                                Giới thiệu</a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="ivt-tong.html">
+                                <i class="bi bi-kanban"></i>
+                                Sản phẩm
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-window-plus"></i>
+                                Giải pháp và ứng dụng
+                            </a>
+                            <div class="dropdown-menu border-0 p-1" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="girdHoaluoi.html">Ứng dụng điện mặt trời <br> hoà
+                                    lưới</a>
+                                <a class="dropdown-item" href="girdDoclap.html">Ứng dụng điện mặt trời <br> độc lập</a>
+                                <a class="dropdown-item" href="hybrid.html">Ứng dụng điện mặt trời <br> Hybrid</a>
+                                <a class="dropdown-item" href="girdFamily.html">Ứng dụng điện mặt trời <br> cho nông
+                                    nghiệp</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="priceHybrid.html">
+                                <i class="bi bi-newspaper"></i>
+                                Dịch vụ
+                                <col>
+                            </a>
+                        </li>
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link fw-bold" href="lienhe.html">
+                                <i class="bi bi-person-lines-fill"></i>
+                                Liên hệ
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <main>
+
+            <div class="container mt-5 pt-5" style="font-family: Arial;">
+
+                <div class="about-heading">
+
+                    <h3 class="fw-bold" style="color: #4075a3;">GIỚI THIỆU</h3>
+
+                    <p class="text-secondary">
+                        Công ty điện mặt trời <Strong style="color: #0a59a0;">SOLAR BÁCH THỊNH</Strong> là công ty cung
+                        cấp các dòng sản phẩm & giải
+                        pháp ứng dụng nguồn năng lượng tái tạo với mục tiêu phấn đấu trở thành công ty hàng đầu trong
+                        lĩnh vực miền Nam cũng như trên Toàn Quốc, mang đến giải pháp năng lượng tiên tiến, tối ưu và
+                        hiệu quả.
+                        <br><br>
+                        Với tình hình giá điện ngày càng tăng, nguồn năng lượng ngày càng cạn kiệt, tình hình về ô nhiễm
+                        môi trường, Chúng tôi thấu hiểu được những thực trạng đó và chọn khởi đầu với lĩnh vực chiếu
+                        sáng với dòng đèn năng lượng mặt trời, chúng tôi tìm tòi và cập nhật những sản phẩm hữu ích mà
+                        khách hàng cần, phỏng đoán được hướng đi để giúp tăng trưởng kinh doanh một cách nhanh chóng
+                        cũng như xây dựng và củng cố thương hiệu cho doanh nghiệp mình. Nếu như bạn là một khách hàng
+                        thì chúng tôi cho bạn thấy tìm năng dòng sản phẩm mà chúng tôi mang đến có thể giúp bạn đột phá
+                        như thế nào, những sản phẩm mà chúng tôi mang đến luôn có sự khác biệt.
+                        <br><br>
+                        Hơn thế chúng tôi luôn tìm kiếm những sản phẩm mới cũng như giải pháp mới hiệu quả khác nhằm mục
+                        đích cuối cùng là mang đến những gì khách hàng cần – giải pháp tốt cho khách hàng.
+                    </p>
+
+                    <br>
+
+                    <h3 class="fw-bold" style="color: #4075a3;">Các sản phẩm và dịch vụ mà SOLAR BÁCH THỊNH cung cấp:
+                    </h3>
+
+                    <p class="text-secondary">
+                        + <Strong><a href="#" class="text-decoration-none" style="color: #ff9100;">Đèn LED Năng Lượng
+                                Mặt Trời:</a></Strong> là
+                        dòng sản phẩm chiếu sáng hiện đại & thông
+                        minh được xem là giải pháp thay thế cho dòng đèn điện hiện nay, là giải pháp số 1 cho chiếu sáng
+                        không gian ngoài trời. Chúng tôi cung cấp dòng sản phẩm chú yếu: đèn đường, đèn pha, đèn cổng,
+                        đèn treo tường... Tất cả sản phẩm này đều sử dụng 100% năng lượng mặt trời và không cần đến dây
+                        điện để lắp đặt.
+                    </p>
+
+                    <p class="text-secondary">
+                        + <Strong><a href="#" class="text-decoration-none" style="color: #ff9100;">Pin năng lượng mặt
+                                trời:</a></Strong> nói về sản
+                        phẩm năng
+                        lượng mặt trời vì đây là sản phẩm dùng để thu ánh sáng để chuyển thành năng lượng điện, chuyên
+                        dùng trong lắp đặt. <Strong style="color: #0a59a0;">SOLAR BÁCH THỊNH</Strong> cung cấp tấm pin
+                        với hãng nổi tiếng hàng đầu như Longi, Canadian,
+                        <Strong style="color: #0a59a0;">SOLAR BÁCH THỊNH</Strong> đặt gia công
+                        sản xuất, pin chính hãng, chất lượng và hiệu suất
+                        cao, được khách hàng đánh giá cao. Chúng tôi cung cấp 2 dòng pin POLY và MONO với nhiều mức công
+                        suất đặc biệt là những loại công suất cao chuyên dùng cho lắp điện mặt trời: 380W, 400W, 435W,
+                        445W, 450W, 455W...
+                    </p>
+
+                    <br>
+
+                    <h3 class="fw-bold" style="color: #4075a3;">HỆ THỐNG ĐIỆN NĂNG LƯỢNG MẶT TRỜI HYBRID (HÒA LƯỚI CÓ
+                        LƯU TRỮ)
+                    </h3>
+
+                    <div class="row">
+
+                        <div class="col-12 col-md-12 col-lg-7">
+
+                            <div class="img-info-solar">
+                                <img src="images/if-img/if-ivt.png" class="img-fluid w-100">
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-5" style="padding-top: 30px;">
+
+                            <h5 class="fw-bold" style="color: #eb2424;">
+                                <i class="bi bi-pin-angle-fill"></i>
+                                HỆ THỐNG NĂNG LƯỢNG MẶT TRỜI HYBRID LÀ GÌ
+                            </h5>
+
+                            <p class="text-secondary">
+                                Hybrid là một hệ thống sử dụng cả năng lượng mặt trời và bộ pin lưu trữ để cung cấp điện
+                                năng cho gia đình hoặc doanh nghiệp của bạn. Năng lượng được lưu trữ trong pin cho phép
+                                hệ thống này hoạt động như một nguồn cung cấp dự phòng, cung cấp cho bạn năng lượng ổn
+                                định trong thời gian dài sau khi mặt trời lặn.
+                                <br>
+                                <br>
+                                Hệ thống tạo ra năng lượng giống như hệ thống hòa lưới thông thường nhưng sử dụng bộ
+                                biến tần Hybrid và pin đặc biệt để lưu trữ năng lượng cho mục đích sử dụng sau này.
+                            </p>
+
+                            <div class="img-info mb-5 pb-3" style="position: relative;">
+                                <img src="images/if-img/if-dt.png" class="img-fluid w-100"
+                                    style="position: absolute; top: -75px;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-12 col-lg-5" style="padding-top: 60px;">
+
+                        <h5 class="fw-bold" style="color: #eb2424;">
+                            <i class="bi bi-pin-angle-fill"></i>
+                            HỆ THỐNG NĂNG LƯỢNG MẶT TRỜI HYBRID ĐƯỢC HOẠTĐỘNG NHƯ THẾ NÀO?
+                        </h5>
+
+                        <p class="text-secondary">
+                            ⇒ Cũng giống như bất kỳ hệ thống năng lượng mặt trời nào, Hybrid cho phép bạn lấy năng
+                            lượng từ ánh sáng mặt trời vào ban ngày. Sự khác biệt là bất kỳ năng lượng dư thừa nào
+                            mà hệ thống tạo ra sẽ được đưa vào Pin. Sau khi pin lưu trữ được sạc, bất kỳ phần dư
+                            thừa nào tiếp theo sẽ tiếp tục quay trở lại lưới điện, và lượng dư này cũng được bán với
+                            giá như <Strong style="color: #0a59a0;">điện mặt trời hòa lưới</Strong>
+                            <br>
+                            <br>
+                            ⇒ Khi mặt trời lặn, ngôi nhà hoặc cơ sở kinh doanh của bạn sẽ sử dụng điện được lưu trữ
+                            trong hệ thống pin (ắc quy) làm nguồn điện thay vì lấy từ lưới điện. Nếu các thiết bị
+                            trong gia đình lúc này tiêu thụ nhiều điện hơn (vượt mức) lượng được dự trữ trong pin,
+                            bạn vẫn có thể lấy điện từ lưới điện để sử dụng, cho đến khi hệ thống của bạn bắt đầu
+                            sản xuất điện trở lại. Kết quả là đây là nguồn cung cấp điện ổn định, đáng tin cậy với
+                            chi phí chỉ bằng một phần nhỏ chi phí của điện lưới thông thường.
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-12 col-lg-7">
+
+                        <div class="img-info-solar">
+                            <img src="images/if-img/if-hygrid.jpeg" class="img-fluid w-100">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row mb-5">
+
+                    <div class="col-12 col-md-12 col-lg-7 mb-3">
+
+                        <img src="images/if-img/if-gr.png" class="img-fluid rounded-3 w-100">
+
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-5 info-bottom-solar">
+
+                        <h5 class="fw-bold mb-4" style="color: #eb2424;">
+                            <i class="bi bi-pin-angle-fill"></i>
+                            LỢI ÍCH VƯỢT TRỘI CỦA HỆ THỐNG NĂNG LƯỢNG MẶT TRỜI HYBRID
+                        </h5>
+
+                        <div class="list-gr">
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="bi bi-moon-stars-fill p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Hệ thống sử dụng dược vào ban đêm hay khi mất
+                                    điện.
+                                </a>
+                            </li>
+
+                            <br>
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="fa-sharp fa-solid fa-arrow-rotate-right p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Thay thế UPS cung cấp nguồn điện liên tục
+                                    24/7 cho các thiết bị điện quan trọng:
+                                    Camera, wifi, cửa cuốn,
+                                    thang máy, thiết bị hỗ trợ y tế, hồ cái KOI...
+                                </a>
+                            </li>
+
+                            <br>
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="bi bi-cpu p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Hệ thống hoạt động hoàn toàn tự động.
+                                </a>
+                            </li>
+
+                            <br>
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="bi bi-gear-wide-connected p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Cài đặt thông minh, sạc giờ bình thường phát ra giờ cao điểm giúp tiết kiệm chi phí
+                                    tiền
+                                    điện ( Giá điện kinh doanh
+                                    giờ cao điểm 4.724 đồng ).
+                                </a>
+                            </li>
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="bi bi-currency-dollar p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Tiết kiệm 100% tiền điện nhờ sử dụng hết nguồn điện mặt trời ( tuỳ theo công suất
+                                    lắp
+                                    đặt ).
+                                </a>
+                            </li>
+
+                            <li class="list-group-item mb-3">
+                                <a class="text-decoration-none text-secondary">
+                                    <i class="bi bi-hand-thumbs-up-fill p-2"
+                                        style="background-color: #0a59a0; border-radius: 100%; color: white;"></i>
+                                    &nbsp;
+                                    Nâng tầm sang trọng đẳng cấp, thời thượng và bảo vệ môi trường.
+                                </a>
+                            </li>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="text-dark fs-6">
+                    Đội ngũ <Strong style="color: #0a59a0;">Solar Bách Thịnh</Strong> luôn làm việc tận tâm với khách
+                    hàng
+                    yêu quý để mọi người luôn nhớ đến chúng tôi khi
+                    sử dụng sản phẩm và dịch vụ của chúng tôi.
+                </p>
+
+
+                <p class="text-dark fs-6">
+                    Vì vậy chỉ cần khách hàng tin yêu chúng tôi thì sẽ nhận được 100% giá trị. Đó là lời khẳng định vững
+                    chắc mà <Strong style="color: #0a59a0;">Solar Bách Thịnh</Strong> gửi đến tất cả mọi người.
+                </p>
+
+
+                <p class="text-dark fs-6">
+                    Một lần nữa xin chân thành cảm ơn mọi người đã tin tưởng và ủng hộ <Strong
+                        style="color: #0a59a0;">Solar
+                        Bách Thịnh</Strong> trong suốt thời gian qua và
+                    chúng tôi sẽ tiếp tục phấn đấu hàng ngày để đem đến cho tất cả mọi người những điều tốt nhất có thể.
+                </p>
+
+                <br>
+
+            </div>
+
+        </main>
+
+        <!-- panel cam kết -->
+        <div class="container">
+
+            <div class="layout">
+
+                <p class="text-dark fs-6">
+                    <br>
+                    Quý khách hàng quan tâm tới thiết bị điện năng lượng mặt trời xin vui lòng liên hệ: <br>
+                    CÔNG TY TNHH <Strong style="color: #0a59a0;">SOLAR BÁCH THỊNH</Strong> <br>
+                    Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập Huyện Thoại Sơn, Tỉnh An Giang<br>
+                    <Strong style="color: #0a59a0;">TEL: 0918.619.651 - 0969.209.620</Strong> <br>
+                    <Strong class="text-danger">Xin chân thành cảm ơn quý khách đã đến với Solar Bách Thịnh !</Strong>
+                </p>
+
+                <div class="img-info-solar mb-5">
+
+                    <img src="./images/if-img/ifo-slbt.png" class="img-fluid w-100">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-currency-dollar"></i>
+                            Cam Kết Chính Hãng
+                        </h3>
+
+                        <p class="text-dark fs-6">Đảm bảo chất lượng 100% hàng nhập khẩu chính hãng.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-people-fill"></i>
+                            Kinh Nghiệm
+                        </h3>
+
+                        <p class="text-dark fs-6">Đội ngũ có kinh nghiệm nhiều năm trong nghành lắp đặt thiết bị.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 pt-4 pb-4">
+
+                    <div class="card rounded-0 p-3" style="box-shadow: 4px 4px 4px gray;">
+
+                        <h3 class="text-success fw-bold">
+                            <i class="bi bi-star-fill"></i>
+                            Uy Tín
+                        </h3>
+
+                        <p class="text-dark fs-6">Luôn được quý khách hàng tin tưởng, yêu mến và ủng hộ.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="doi-tac-solar mb-5 ">
+
+                    <div class="img-logo">
+                        <img src="images/doitac/canadian-solar.jpg" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/Goodwe_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/invt-solar.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/Ja_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/longi-logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/sma-solar.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                    <div class="img-logo">
+                        <img src="images/doitac/solis_logo.png" class="img-fluid" style="margin: 0 auto;">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+
+            <div class="container" id="contact">
+
+                <div class="row g-0">
+
+                    <div class="col-12 col-md-4 col-lg-4 pt-3">
+                        <div class="item">
+                            <ul style="padding-left: 0rem;">
+                                <li>
+                                    <a class="text-white fw-bold fs-6">THÔNG TIN LIÊN HỆ</a>
+                                    <a class="text-white">
+                                        <i class="bi bi-houses"></i>
+                                        &nbsp;Công ty TNHH &nbsp; <Strong class="text-success">Solar Bách Thịnh</Strong>
+                                    </a>
+                                    <a class="text-white">
+                                        <i class="bi bi-telephone"></i>
+                                        &nbsp;0918.619.651 - 0969.209.620
+                                    </a>
+                                    <a class="text-white">
+                                        <i class="bi bi-clock"></i>
+                                        &nbsp;Thời gian làm việc: 7:00 - 17:00 <br> Thứ 2 - Chủ nhật
+                                    </a>
+                                    <a class="text-white">
+                                        <i class="bi bi-geo-alt"></i>
+                                        &nbsp;Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập <br>
+                                        &nbsp;Huyện Thoại Sơn, Tỉnh An Giang
+                                    </a>
+                                    <a class="text-white">
+                                        <i class="bi bi-envelope-at"></i>
+                                        &nbsp;Email: lethanhkietdl@gmail.com
+                                    </a>
+                                    <a class="text-white">
+                                        <i class="bi bi-card-checklist"></i>
+                                        &nbsp;Mã số thuế: 1602124773 cấp ngày: 04/06/2020 tại An Giang
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 pt-3">
+                        <div class="item">
+                            <ul style="padding-left: 0rem;">
+                                <li>
+                                    <a class="text-white fw-bold fs-6">GIẤY PHÉP ĐKKD</a>
+                                    <a class="text-white">Công ty TNHH MTV &nbsp; <Strong class="text-success"> Solar
+                                            Bách Thịnh</Strong>
+                                    </a>
+                                    <a class=" text-white">
+                                        Giấy phép đăng kí Kinh doanh số: 1602124773 do <br>
+                                        Sở KHĐT Tỉnh An Giang cấp ngày:
+                                        04/06/2020.
+                                    </a>
+                                    <a class="text-white">
+                                        Địa chỉ: Đường Nguyễn Huệ, Ấp Bắc Sơn, Thị Trấn Núi Sập <br>
+                                        Huyện Thoại Sơn, Tỉnh An Giang, Việt Nam
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4 pt-3">
+
+                        <div class="item">
+
+                            <ul style="padding-left: 0rem;">
+
+                                <li>
+
+                                    <a class="text-white fw-bold fs-5">LIÊN HỆ TƯ VẤN LẮP ĐẶT</a>
+
+                                    <form class="mb-5" name="formChk">
+
+                                        <label class="text-white mb-3">Xin vui lòng để lại email để <Strong
+                                                class="text-success">Solar Bách Thịnh</Strong>
+                                            cập nhật tin tức mới
+                                            nhất đến quý khách
+                                        </label>
+
+                                        <div class="row g-2">
+
+                                            <div class="col-lg-12">
+                                                <div class="mb-2">
+                                                    <input type="text" class="form-control" name="name"
+                                                        ng-model="fullname" placeholder="Họ và tên"
+                                                        pattern="^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$"
+                                                        required>
+                                                    <small class="text-danger"
+                                                        ng-show="formChk.name.$touched && formChk.name.$invalid">
+                                                        Vui lòng nhập đúng định dạng họ tên !
+                                                    </small>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="mb-2">
+                                                    <input type="text" class="form-control" name="phone"
+                                                        ng-model="phone" placeholder="Số điện thoại"
+                                                        pattern="(84|0[3|5|7|8|9])+([0-9]{8})\b" required>
+                                                    <small class="text-danger"
+                                                        ng-show="formChk.phone.$touched && formChk.phone.$invalid">
+                                                        Vui lòng nhập đúng định dạng số điện thoại !
+                                                    </small>
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <textarea class="form-control" name="content" placeholder="Nội dung"
+                                                    rows="5"></textarea>
+                                            </div>
+
+                                        </div>
+
+                                        <button type="submit" id="submit" name="submit"
+                                            class="btn btn-success fw-bold px-3 ps-3 pt-2 pb-2">
+                                            Đăng ký
+                                        </button>
+
+                                        <span class="fs-6" id="success"></span>
+
+                                    </form>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="design pt-2">
+
+                <p class="fw-bold"> Copyright © 2023 Công Ty TNHH
+                    <Strong class="fw-bold text-success">
+                        Solar Bách Thịnh
+                    </Strong>
+                </p>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!-- nút bấm BACKTOP -->
+    <div id="backtop">
+        <i class="fa fa-chevron-up" id="icon"></i>
+    </div>
+
+    <!-- call -->
+    <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+            <div class="hotline-phone-ring-circle"></div>
+            <div class="hotline-phone-ring-circle-fill"></div>
+            <div class="hotline-phone-ring-img-circle">
+                <a href="tel:0918619651" class="pps-btn-img">
+                    <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại"
+                        width="50">
+                </a>
+            </div>
+        </div>
+        <div class="hotline-bar">
+            <a href="tel:0918619651">
+                <span class="text-hotline">0918.619.651</span>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/send-infoKH.js"></script>
+    <script src="js/slick.js"></script>
+
+</body>
+
+</html>

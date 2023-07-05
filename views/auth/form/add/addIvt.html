@@ -1,0 +1,61 @@
+<div class="card">
+
+    <div class="card-header bg-primary text-white">
+
+        Thêm thông tin Inverter
+
+    </div>
+
+    <div class="card-body">
+
+        <form ng-submit="add()">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Tên Inverter</label>
+                        <input type="text" class="form-control" id="name" ng-model="ivt.Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="hinh" class="form-label">Hình</label>
+                        <input type="text" class="form-control" id="hinh" ng-model="ivt.Logo" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="hang" class="form-label">Hãng</label>
+                        <input type="text" class="form-control" id="hang" ng-model="ivt.Hang" required>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="mb-3">
+                        <label for="congsuat" class="form-label">Công suất</label>
+                        <input type="text" class="form-control" id="congsuat" ng-model="ivt.Congxuat" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dienap" class="form-label">Điện áp đầu ra</label>
+                        <input type="text" class="form-control" id="dienap" ng-model="ivt.dienapra" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="des" class="form-label">Nội dung giới thiệu</label>
+                        <input type="text" class="form-control" id="des" ng-model="ivt.Des" required>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-success">Thêm</button>
+
+        </form>
+
+    </div>
+
+</div>

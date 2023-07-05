@@ -1,0 +1,51 @@
+<div class="card">
+
+    <div class="card-header fw-bold fs-4 ">
+
+        Danh sách sản phẩm của pin
+
+        <a class="btn btn-success float-end" href="#" role="button">Thêm mới</a>
+
+    </div>
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+            <table class="table table-hover table-striped">
+
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Tên</th>
+                        <th scope="col">Hình</th>
+                        <th scope="col">Hãng</th>
+                        <th scope="col">Công suất</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr ng-repeat="list in pin">
+                        <td scope="row">{{$index}}</td>
+                        <td>{{list.Name}}</td>
+                        <td>{{list.Logo}}</td>
+                        <td>{{list.Hang}}</td>
+                        <td>{{list.Congxuat}}</td>
+                        <td>
+                            <a class="btn btn-warning" href="#" role="button">Sửa</a>
+                        </td>
+                        <td>
+                            <a class="btn btn-danger" href="#" role="button">Xoá</a>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

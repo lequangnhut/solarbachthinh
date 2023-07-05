@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* bàn tay animation */
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+/* định dạng backtop */
+#backtop {
+    width: 50px;
+    height: 50px;
+    background-color: #0a59a0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 4;
+}
+
+#backtop:hover {
+    background-color: #4075a3;
+}
+
+#icon {
+    font-size: 20px;
+}
+
+/* header */
+.navbar {
+    z-index: 5;
+    /* background-color: #d6d5d58b; */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.offcanvas ul li a {
+    color: rgb(139, 139, 139);
+}
+
+.offcanvas ul li a:hover {
+    color: rgb(75, 75, 75);
+}
+
+.carousel-item img {
+    opacity: 0.8;
+}
+
+.noidung h1 {
+    font-size: 55px;
+}
+
+.noidung {
+    bottom: 190px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .rounded-top {
+        width: 50%;
+    }
+
+    .card .des {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+
+    .lean a {
+        font-size: small;
+    }
+
+    .giohang button {
+        font-size: 15px;
+    }
+
+    .col-lg-5 h5,
+    .col-lg-5 p,
+    .info-bottom-solar h5,
+    .list-gr li a,
+    .des-Company h5 {
+        font-size: small;
+    }
+
+    .title-solar {
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .card .des {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .col-12 h1,
+    .col-12 .des-Company h5 {
+        font-size: large;
+    }
+
+    .lean a {
+        font-size: small;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+
+    .giohang button {
+        font-size: 15px;
+    }
+
+    .col-lg-5 h5,
+    .col-lg-5 p,
+    .info-bottom-solar h5,
+    .list-gr li a {
+        font-size: small;
+    }
+
+    .img-info {
+        display: none;
+    }
+
+    .noidung {
+        bottom: 85px;
+    }
+}
+
+/* sản phẩm */
+.des {
+    font-size: 15px;
+}
+
+.list-product-solar ul li a {
+    color: #0a59a0;
+}
+
+.list-product-solar ul li a:hover {
+    color: #acacac;
+}
+
+.fs-7 {
+    font-size: 12.5px;
+}
+
+.price {
+    font-size: 13px;
+}
+
+/* page product */
+
+
+/* about */
+.container p {
+    font-family: Arial;
+}
+
+.card .elip {
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    background-color: #fcddc2;
+}
+
+.line-B {
+    position: absolute;
+    padding: 4px;
+    width: 80px;
+    border: 4px solid #87d453;
+    color: #87d453;
+}
+
+/* acording */
+.accordion-item h2 button {
+    color: gray;
+}
+
+/* footer */
+footer {
+    background-color: #1e1e1e;
+    width: 100%;
+}
+
+.container .item ul li a {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    text-decoration: none;
+}
+
+.container .item ul li {
+    font-size: small;
+    list-style: none;
+}
+
+.item a:nth-child(1) {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.item a {
+    color: #fff;
+}
+
+.contact h3,
+.col-6 button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+}
+
+.design {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #191919;
+    font-size: small;
+}
+
+/* dùng chung */
+.color-solar {
+    color: #87d453;
+}
+
+.color-product {
+    color: #446084;
+}
+
+.bg-color {
+    background-color: #0a59a0;
+}
+
+.btn-intline-blue {
+    border: 2px solid #0a59a0;
+    background-color: #0a59a0;
+    color: white;
+}
+
+.btn-intline-blue:hover {
+    border: 2px solid #0a59a0;
+    color: #0a59a0;
+}
+
+.btn-outline-blue {
+    border: 1px solid #0a59a0;
+    color: #0a59a0;
+}
+
+.btn-outline-blue:hover {
+    background-color: #0a59a0;
+}
+
+
+/* nút cho slide click */
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1;
+    z-index: 2;
+    transition: all 0.2 linear;
+    background-color: #d6d5d53f;
+    color: #646464a2;
+}
+
+.slick-arrow:hover {
+    color: white;
+    background-color: #d6d5d598;
+}
+
+.slick-prev {
+    left: 0px;
+}
+
+.slick-next {
+    right: 0px;
+}
+
+/* img model */
+#myImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    top: 10px;
+    max-width: 600px;
+}
+
+@media screen and (max-width:768px) {
+    .modal-content {
+        margin: auto;
+        display: block;
+        top: 60px;
+        width: 350px;
+        max-width: 600px;
+    }
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* plugin call */
+.hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.hotline-phone-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.hotline-phone-ring-circle {
+    width: 85px;
+    height: 85px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid #e60808;
+    -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0.5;
+}
+
+.hotline-phone-ring-circle-fill {
+    width: 57px;
+    height: 57px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    background-color: rgba(230, 8, 8, 0.7);
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.hotline-phone-ring-img-circle {
+    background-color: #e60808;
+    width: 33px;
+    height: 33px;
+    top: 37px;
+    left: 37px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.hotline-phone-ring-img-circle .pps-btn-img img {
+    width: 20px;
+    height: 20px;
+}
+
+.hotline-bar {
+    position: absolute;
+    background: rgba(230, 8, 8, 0.75);
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    z-index: 9;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px !important;
+    /* width: 175px !important; */
+    left: 33px;
+    bottom: 37px;
+}
+
+.hotline-bar>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 50px;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: Arial;
+}
+
+.hotline-bar>a:hover,
+.hotline-bar>a:active {
+    color: #fff;
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+
+    30% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        -webkit-opacity: 0.5;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        -webkit-opacity: 0.1;
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.6;
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.6;
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .hotline-bar {
+        display: none;
+    }
+}
